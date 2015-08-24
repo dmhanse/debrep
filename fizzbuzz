@@ -1,0 +1,18 @@
+=begin
+FizzBuzz
+- multiples of 3 - Fizz
+- multiples of 5 - Buzz
+- multiples of 3/5 = FizzBuzz
+=end
+
+for x in 1 .. 100
+	if (x % 3 == 0) && (x % 5 == 0)
+ 	  puts "FizzBuzz"
+	elsif x % 5 == 0
+	  puts "Buzz"
+	elsif x % 3 == 0
+	  puts "Fizz"
+	else
+	  puts x
+    end
+end
